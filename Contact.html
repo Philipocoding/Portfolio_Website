@@ -3,33 +3,18 @@
       <TITLE>
         
       </TITLE>
+      <link rel="stylesheet" href = "contactForm.css">
+      <link rel="icon" href="./favicon.ico" type="image/x-icon">
    </HEAD>
    <BODY>
-      <div id="menu" style="text-align:center;">
-         <div class = "LinkedIn">
-           <a id = "LinkedIn" href="https://www.linkedin.com/in/philip-graham-311977262/">
-             <img class="imgLinkedIn" src="/Images/LinkedIn.png" alt="LinkedIn">
-           </a>
-         </div>
-   
-         <div class = "Github">
-           <a id = "Github" href="https://github.com/Philipocoding">
-             <img class="imgGithub" src="/Images/Github.png" alt="Github">
-           </a>
-           
-         </div>
-         <div style="display: flex; justify-content: center; gap: 20px;">
-           
-           <a id="H_Projects"  href="Contact.html" target="_self">
-             <h1 >Contact</h1>
-           </a>
-           <a id="H_Projects"  href="index.html" target="_self">
-             <h1 >Home</h1>
-           </a>
-           <a id="H_Projects"  href="Projects.html" target="_self">
-             <h1 >Projects</h1>
-           </a>
-         </div>
-       </div>
+      <form method = "POST" action="https://formsubmit.co/philipgraham_1@hotmail.co.uk" method="POST">
+        <input name = "Name" type = "text" aria-placeholder="Enter name" required/>
+        <input name = "Email" type = "text"aria-placeholder="Enter email" required/>
+        <textarea name="message" type = "text" aria-placeholder="Enter message" required></textarea>
+        <button type="submit"> Send</button>
+      </form>
+
+
+      
    </BODY>
 </HTML>
