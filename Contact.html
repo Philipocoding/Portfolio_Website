@@ -7,10 +7,19 @@
       <link rel="icon" href="./favicon.ico" type="image/x-icon">
    </HEAD>
    <BODY>
-      <form method = "POST" action="https://formsubmit.co/philipgraham_1@hotmail.co.uk" method="POST">
-        <input name = "Name" type = "text" aria-placeholder="Enter name" required/>
-        <input name = "Email" type = "text"aria-placeholder="Enter email" required/>
-        <textarea name="message" type = "text" aria-placeholder="Enter message" required></textarea>
+      <form method="POST" action="https://formsubmit.co/philipgraham_1@hotmail.co.uk" method="POST">
+        <label for="name">Name:</label>
+        <input name="Name" type="text" id="name" aria-placeholder="Enter name" required/>
+        <br>
+      
+        <label for="email">Email:</label>
+        <input name="Email" type="text" id="email" aria-placeholder="Enter email" required/>
+        <br>
+      
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" aria-placeholder="Enter message" required></textarea>
+        <br>
+      
         <button type="submit"> Send</button>
       </form>
 
